@@ -5,9 +5,15 @@
 	</head>
 	<body>
 		<div id="options">
+			<span>Choose a game</span>
 			<select id="selector">
 				<option value="btd4">BTD 4</option>
+				<option value="btd5">BTD 5</option>
 			</select>
+			<br/>
+			<span>Or upload an SWF</span>
+			<input id="file" type="file" accept=".swf"/>
+			<br/>
 			<button onclick="play();">Play</button>
 		</div>
 		<script src="main.js"></script>
